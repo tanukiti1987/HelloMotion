@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    bubble-wrap (1.2.0)
     motion-redgreen (0.1.0)
     rake (10.0.4)
 
@@ -8,5 +9,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bubble-wrap
   motion-redgreen
   rake
