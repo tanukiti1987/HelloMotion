@@ -22,7 +22,7 @@ class SampleViewController < UIViewController
   end
 
   def show_alert
-    UIAlertView.alloc.initWithTitle(
+    @alert = UIAlertView.alloc.initWithTitle(
       "Title",
       message: "Message",
       delegate: nil,
